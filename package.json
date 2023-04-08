@@ -1,0 +1,20 @@
+{
+  "name": "v-privacy",
+  "version": "1.0.0",
+  "description": "A vue3 plugin that allows to manage the privacy of an HTML element by blurring its content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "plugin",
+    "privacy",
+    "blur"
+  ],
+  "author": "fchancel",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  }
+}
