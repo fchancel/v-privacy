@@ -2,19 +2,33 @@
   "name": "v-privacy",
   "version": "1.0.0",
   "description": "A vue3 plugin that allows to manage the privacy of an HTML element by blurring its content",
-  "main": "index.js",
+  "author": "Florian CHANCELADE <florian.chancelade@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fchancel/v-privacy"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
   },
   "keywords": [
     "vue",
-    "plugin",
     "privacy",
+    "directive",
     "blur"
   ],
-  "author": "fchancel",
-  "license": "MIT",
   "peerDependencies": {
     "vue": "^3.2.45"
-  }
+  },
+  "devDependencies": {
+    "rollup": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "dist"
+  ]
 }
