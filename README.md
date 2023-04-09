@@ -86,6 +86,10 @@ Using the v-privacy directive with an object allows you to change the options us
 </script>
 ```
 
+## Example
+
+![Demo GIF of Privacy](https://github.com/fchancel/v-privacy/blob/main/example/demo-privacy.gif)
+
 ## Contributing
 
 Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/fchancel/v-privacy/issues) or create a pull request.
