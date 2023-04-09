@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/fchancel/v-privacy#readme",
   "peerDependencies": {
-    "vue": "^3.2.45"
+    "vue": "^3.0.0"
   },
   "devDependencies": {
     "rollup": "^2.0.0",
