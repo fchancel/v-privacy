@@ -19,6 +19,10 @@
     "directive",
     "blur"
   ],
+  "bugs": {
+    "url": "https://github.com/fchancel/v-privacy/issues"
+  },
+  "homepage": "https://github.com/fchancel/v-privacy#readme",
   "peerDependencies": {
     "vue": "^3.2.45"
   },
