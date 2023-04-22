@@ -9,4 +9,6 @@ export interface VPrivacyOptions {
   transitionDelay?: number;
   transitionDuration?: number;
   transitionTimingFunction?: string;
+  encryptText?: boolean;
+  secretKey?: string;
 }
