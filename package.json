@@ -1,7 +1,7 @@
 {
   "name": "v-privacy",
-  "version": "1.0.1",
-  "description": "A vue3 plugin that allows to manage the privacy of an HTML element by blurring its content",
+  "version": "1.1.0",
+  "description": "A vue3 plugin that allows to manage the privacy of an HTML element by blurring its content and encrypt node text data in DOM",
   "author": "Florian CHANCELADE <florian.chancelade@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
