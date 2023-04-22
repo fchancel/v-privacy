@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # v-privacy
-V-Privacy is a Vue 3 plugin that allows you to manage the privacy of an HTML element by blurring its content. This can be useful in scenarios where you want to hide sensitive information or content that is not relevant for the user.
+V-Privacy is a Vue 3 plugin that allows you to manage the privacy of an HTML element by blurring its content and encrypt node text data in DOM. This can be useful in scenarios where you want to hide sensitive information or content that is not relevant for the user.
 
 ## Installation
 
@@ -25,10 +25,12 @@ npm install --save v-privacy
 | transitionDelay   | number    | 0    | The delay before the transition starts.    |
 | transitionDuration   | number    | 0.2    | The duration of the transition.    |
 | transitionTimingFunction   | string    | 'linear'    | The timing function of the transition.    |
+| encryptText   | boolean    | false    | If set to true, node text will be encrypt (Security ++)    |
+| secretKey   | string    | ''    | The secret key used to encrypt the node text directly in the DOM (If `encryptText` is set to true, this option is REQUIRED)     |
 
 ## Usage
 
-### Plugin Installation
+### Plugin Installation (Without encrypt option)
 
 To use V-Privacy in your Vue 3 project, you need to install it as a plugin.
 
@@ -48,6 +50,23 @@ app.use(VPrivacy, {
     blur: 10,
     transitionDuration: 1.2,
     blurColor: '#ff0000'
+  }
+);
+```
+
+
+### Plugin Installation (With encrypt option)
+
+To use V-Privacy in your Vue 3 project with encrypt option, you need to install it as a plugin, and fill the secretKey option.
+
+
+WARNING: in order for this option to be really efficient, the secret key must be kept and used in a secure way.
+
+
+```js
+app.use(VPrivacy, {
+    encryptText: true,
+    secretKey: 'my-awesome-secret-key'
   }
 );
 ```
