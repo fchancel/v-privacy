@@ -107,7 +107,13 @@ Using the v-privacy directive with an object allows you to change the options us
 
 ## Example
 
+Without Encrypt
+
 ![Demo GIF of Privacy](https://github.com/fchancel/v-privacy/blob/main/example/demo-privacy.gif)
+
+With Encrypt (The blur is voluntarily decreased on the demo in order to see the encryption)
+
+![Demo GIF of Privacy](https://github.com/fchancel/v-privacy/blob/main/example/demo-privacy-encrypt.gif)
 
 ## Contributing
 
