@@ -61,6 +61,7 @@ To use V-Privacy in your Vue 3 project with encrypt option, you need to install 
 
 
 WARNING: in order for this option to be really efficient, the secret key must be kept and used in a secure way.
+It is also necessary to keep in mind that despite the encryption of text nodes, the security of information coming from an API is not guaranteed. Indeed, the information can be found by the user via the return call of the API.
 
 
 ```js
