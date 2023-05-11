@@ -1,5 +1,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![build](https://img.shields.io/npm/v/v-privacy)](https://www.npmjs.com/package/v-privacy)
 
+<div align="center">
+<img src="https://github.com/fchancel/v-privacy/blob/main/example/v-privacy-logo.png?raw=true"/>
+</div>
+
 # v-privacy
 V-Privacy is a Vue 3 plugin that allows you to manage the privacy of an HTML element by blurring its content and encrypt node text data in DOM. This can be useful in scenarios where you want to hide sensitive information or content that is not relevant for the user.
 
